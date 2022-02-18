@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Jquery practice</title>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>Register</h1>
+    <p>Create an account.</p>
+    <hr>
+    <label for="user"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="user" id="user" required>
+    <label for="pass"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="pass" id="pass" required> Show password <input type="checkbox" id="show">
+    <input type="button" onclick="return register()" id="register" value="Register" disabled>
+    <hr>
+</div>
+
+<button id ="background">Change background</button>
+    <form>
+        <label>Maximum 15 characters</label>
+        <textarea id="textarea" maxlength="15"></textarea>
+        <span id="span">15</span> characters remaining
+    </form>
+
+    <p> <button id="fade">Click</button> Click this paragraph to see it fade.</p>
+
+    <button id="btn1">Animate height & width</button>
+    <button id="btn2">Reset</button>
+    <div id="box" style="background: darkorange;height:100px;width:100px;margin:6px;"></div>
+    <button onclick="scrollToTop()">Scroll to the top of the page</button>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="jq.js" charset="UTF-8"></script>
+</body>
+</html>
