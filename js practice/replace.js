@@ -8,7 +8,7 @@ document.getElementById("number").innerHTML = numbers;
 let badText = document.getElementById("text").innerHTML;
 let goodText = badText.replaceAll("?", "🤔");
 let bestText = goodText.replaceAll("!", "😯");
-let longText = document.getElementById("text").innerHTML;
+document.getElementById("text").innerHTML = bestText;
 window.onload = function() {
   const check = word => {
     if (word.length > 8) {
